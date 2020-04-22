@@ -1,0 +1,28 @@
+<!--
+VOLIM TE
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors v2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <script src="startButton.js"></script>
+    <h1>Rock Paper Scissors</h1>
+    <p id="score">
+      0
+    </p>
+    <p id="result"></p>
+    <div id="wrapper">
+      <button class="startButton" type="button" onclick="startButton()">Start</button>
+    </div>
+    <marquee behavior="scroll" direction="right">Good luck!</marquee>
+    <div id="container">
+      <button id="button_rock" onclick="playRound('rock')" type="button">Rock</button>
+      <button id="button_paper" onclick="playRound('paper')" type="button">Paper</button>
+      <button id="button_scissors" onclick="playRound('scissors')" type="button">Scissors</button>
+    </div>
+  </body>
+</html>
